@@ -1,24 +1,50 @@
 .todo{
-width:80%;
-display:flex;
+width:100%;
+display:inline-flex;
+flex-direction: column;
+height: 800px;
+align-items: center;
+    justify-content: center;
 }
-div>div{
+.todo div>div{
     display:flex;
     flex-grow: 1;
+    align-items: center;
+    justify-content: center;
 }
 .arriba{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
     width:100%;
     flex-grow: 1;
-    background-color: red;
+    background-color: rgba(173, 4, 4, 0.74);
+    box-shadow: rgba(0, 0, 0, 0.486) 5px 5px 5px 5px;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
 }
 
 .almedio{
     width:100%;
     flex-grow: 3;
-    background-color: blue;
+    background-color: rgb(5, 5, 121);        
+    background: radial-gradient(circle farthest-corner at 250px 50px, rgba(221, 215, 180, 0.404) 2%,rgba(180, 165, 31, 0.603) 0%,rgba(0, 17, 255, 0.24) 10%,rgba(0, 17, 255, 0.747) 20%);
 }
 .abajo{
     width:100%;
     flex-grow: 1;
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.692);
+    box-shadow: rgba(0, 0, 0, 0.486) 5px -5px 5px 5px;
+    z-index: 1;
+}
+img:hover{
+    box-shadow: rgba(255, 217, 0, 0.822) 0px 0px 10px 15px;
+    border-radius: 150px 150px 150px 150px/150px 150px 150px 150px;
+}
+.contenedor{
+    display:inline-flex;
+    flex-direction: column;
+    
 }
