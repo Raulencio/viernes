@@ -5,6 +5,7 @@ flex-direction: column;
 height: 800px;
 align-items: center;
 justify-content: center;
+background-color: whitesmoke;
 }
 .todo div>div{
     display:flex;
@@ -25,12 +26,15 @@ justify-content: center;
     text-align: center;
     
 }
-
+.espacio{
+    width:100%;
+    height:70px;
+}
 .almedio{
     width:100%;
-    flex-grow: 8;
-    background-color: rgb(5, 5, 121);        
-     background: radial-gradient(circle farthest-corner at 100px 100px, rgba(221, 215, 180, 0.404) 2%,rgba(180, 165, 31, 0.603) 0%,rgba(0, 17, 255, 0.24) 10%,rgba(0, 17, 255, 0.747) 20%);
+    flex-grow: 3;
+    background-color: rgba(5, 5, 121, 0.096);        
+     background: radial-gradient(circle farthest-corner at 100px 100px, rgba(221, 215, 180, 0.404) 2%,rgba(180, 165, 31, 0.603) 0%,rgba(0, 17, 255, 0.123) 10%,rgba(0, 17, 255, 0.418) 20%);
 }
 .abajo{
     width:100%;
@@ -38,6 +42,8 @@ justify-content: center;
     background-color: rgba(0, 128, 0, 0.692);
     // box-shadow: rgba(0, 0, 0, 0.486) 5px -5px 5px 5px;
     z-index: 1;
+    display:inline-flex;
+    flex-direction: row
 }
 img:hover{
     box-shadow: rgba(255, 217, 0, 0.822) 0px 0px 10px 15px;
@@ -45,8 +51,10 @@ img:hover{
 }
 .contenedor{
     display:inline-flex;
-    flex-direction: column;
-    
+    flex-direction:column;
+    width:50%;
+    padding-top:100px;
+    margin-left:25%;
 }
 input:focus{
     box-shadow: black 0px 0px 10px 5px;
