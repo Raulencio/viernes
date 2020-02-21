@@ -1,0 +1,95 @@
+.todo {
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 800px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.todo div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.arriba {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: rgba(173, 4, 4, 0.74);
+  z-index: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.almedio {
+  width: 100%;
+  -webkit-box-flex: 8;
+      -ms-flex-positive: 8;
+          flex-grow: 8;
+  background-color: #050579;
+  background: radial-gradient(circle farthest-corner at 100px 100px, rgba(221, 215, 180, 0.404) 2%, rgba(180, 165, 31, 0.603) 0%, rgba(0, 17, 255, 0.24) 10%, rgba(0, 17, 255, 0.747) 20%);
+}
+
+.abajo {
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: rgba(0, 128, 0, 0.692);
+  z-index: 1;
+}
+
+img:hover {
+  -webkit-box-shadow: rgba(255, 217, 0, 0.822) 0px 0px 10px 15px;
+          box-shadow: rgba(255, 217, 0, 0.822) 0px 0px 10px 15px;
+  border-radius: 150px 150px 150px 150px/150px 150px 150px 150px;
+}
+
+.contenedor {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+input:focus {
+  -webkit-box-shadow: black 0px 0px 10px 5px;
+          box-shadow: black 0px 0px 10px 5px;
+  background-color: yellow;
+}
+
+div > div > div {
+  width: 50%;
+}
+/*# sourceMappingURL=index.css.map */
