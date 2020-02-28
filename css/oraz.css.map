@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,OAAO,CAAA;EACP,gBAAgB,ECLP,wBAAwB;EDMjC,KAAK,EAAC,IAAI;EACV,MAAM,EAAE,KAAW;EGNf,KAAK,EAAC,IAAI;EACV,QAAQ,EAAC,KAAK;EACd,OAAO,EAAC,MAAM;CHMjB",
+    "sources": [
+        "../../Users/Alumno/Desktop/Nueva carpeta/scss/oraz.scss",
+        "../../Users/Alumno/Desktop/Nueva carpeta/scss/_colors.scss",
+        "../../Users/Alumno/Desktop/Nueva carpeta/scss/_pixis.scss",
+        "../../Users/Alumno/Desktop/Nueva carpeta/scss/_meeseks.scss"
+    ],
+    "names": [],
+    "file": "oraz.css"
+}
