@@ -73,12 +73,37 @@
   background: radial-gradient(circle farthest-corner at 100px 100px, rgba(221, 215, 180, 0.623) 2%, rgba(180, 165, 31, 0.76) 0%, rgba(0, 17, 255, 0.123) 10%, rgba(0, 17, 255, 0.418) 20%);
 }
 
+.almedioc {
+  width: 100%;
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+  background-color: rgba(5, 5, 121, 0.945);
+  background: radial-gradient(circle farthest-corner at 100px 100px, rgba(221, 211, 155, 0.699) 2%, rgba(180, 165, 31, 0.582) 0%, rgba(0, 17, 255, 0.404) 10%, rgba(0, 17, 255, 0.644) 20%);
+}
+
 .abajo {
   width: 100%;
   -webkit-box-flex: 4.20;
       -ms-flex-positive: 4.20;
           flex-grow: 4.20;
-  background-color: rgba(0, 92, 128, 0.883);
+  background-color: rgba(5, 70, 95, 0.883);
+  z-index: 1;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.abajoc {
+  width: 100%;
+  -webkit-box-flex: 4.20;
+      -ms-flex-positive: 4.20;
+          flex-grow: 4.20;
+  background-color: rgba(0, 128, 0, 0.692);
   z-index: 1;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
