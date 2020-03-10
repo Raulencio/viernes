@@ -48,15 +48,30 @@
 }
 
 .aldomie {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
   -webkit-box-flex: 3;
       -ms-flex-positive: 3;
           flex-grow: 3;
   background-color: rgba(5, 5, 121, 0.945);
   background: radial-gradient(circle farthest-corner at 521px 125px, rgba(224, 212, 144, 0.699) 2%, rgba(216, 200, 55, 0.582) 0%, rgba(0, 17, 255, 0.267) 10%, rgba(20, 34, 230, 0.644) 20%);
+}
+
+.contienen {
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .arriba {
@@ -131,7 +146,6 @@
       -ms-flex-positive: 4.20;
           flex-grow: 4.20;
   background-color: rgba(0, 128, 0, 0.692);
-<<<<<<< HEAD
   z-index: 1;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -148,8 +162,6 @@
       -ms-flex-positive: 4.20;
           flex-grow: 4.20;
   background-color: rgba(202, 140, 23, 0.692);
-=======
->>>>>>> 1d1efeab1f3871a6d9dc52357ce6671ae57efb0c
   z-index: 1;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
