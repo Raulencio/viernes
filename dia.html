@@ -14,56 +14,77 @@
 
     <div class="todo">
         <div class="aldomie">
+            <div class="contienen">
+                <div class="contenidoso">
 
-            <div class="contenidoso">
-               
                     <strong>
                         <p>Ingresa rut!</p>
                     </strong>
                     <br>
-                    <input class="input-group-text" type="text" name="ruts" id="trt" value="" onkeyup="this.value=Numeros(this.value)">
+                    <input class="input-group-text" type="text" name="ruts" id="trt" value=""
+                        onkeyup="this.value=Numeros(this.value)">
                     Ejp 18.123.487-6
                     </input><br>
                     <button class="btn-outline-dark" onClick="laFunc()" autofocus>validar</button>
-               
-            </div> 
-            <div class="contenidoso">
-                
+
+                </div>
+                <div class="contenidoso">
+
                     <strong>Potencias</strong><br>
-                    <input class="input-group-text" type ="text" id="numA" value="" name="na"> Base del numero </input>
-                    <input class="input-group-text" type ="text" id="numB" value="" name="nb"> Exponente </input><br>
+                    <input class="input-group-text" type="text" id="numA" value="" > Base del numero </input>
+                    <input class="input-group-text" type="text" id="numB" value="" > Exponente </input><br>
                     <button class="btn-outline-dark" onClick="elevarNum()">Resultado</button>
                     <p class="p-2" id="pri">...</p>
-                
-            </div>
-            <div class="contenidoso">
-                <strong>Palabras</strong><br>
-                <input class="input-group-text" type ="text" id="textA" value="" name="na"> Primera </input>
-                <input class="input-group-text" type ="text" id="textB" value="" name="nb"> Segunda </input><br>
-                <button class="btn-outline-dark" onClick="compsL()">Comparar</button>
-                <p class="p-2" id="pria">...</p>
-            
-            </div>            
-            <div class="contenidoso">
-                <strong>Ecuacion Cuadratica</strong><br>
 
-                <input class="input-group-text" type ="text" id="nmA" value="" name="na" placeholder="A">  </input>                
-                <input class="input-group-text" type ="text" id="nmB" value="" name="na" placeholder="B">  </input>
-                <input class="input-group-text" type ="text" id="nmC" value="" name="nb" placeholder="C">  </input><br>
-                <button class="btn-outline-dark" onClick="elevarNum()">Resultado</button>
-                <p class="p-2" id="pris">...</p>
-            
-            </div>
-            <div class="contenidoso">
+                </div>
+                <div class="contenidoso">
+                    <strong>Palabras</strong><br>
+                    <input class="input-group-text" type="text" id="textA" value="" > Primera </input>
+                    <input class="input-group-text" type="text" id="textB" value="" > Segunda </input><br>
+                    <button class="btn-outline-dark" onClick="compsL()">Comparar</button>
+                    <p class="p-2" id="pria">...</p>
 
-            </div>
-            <div class="contenidoso">
+                </div>
+                <div class="contenidoso">
+                    <strong>Ecuacion Cuadratica</strong><br>
 
+                    <input class="input-group-text" type="text" id="nmA" value="" placeholder="A"> </input>
+                    <input class="input-group-text" type="text" id="nmB" value="" placeholder="B"> </input>
+                    <input class="input-group-text" type="text" id="nmC" value="" placeholder="C"> </input>
+                    <br>
+                    <button class="btn-outline-dark" onClick="funCuad()">Resultado</button>
+                    <p class="p-2" id="pris">ax<sup>2</sup>+bx+c=0</p>
+
+                </div>
             </div>
 
-        </div>
-        <div class="abajod">
+            <div class="contienen">
+                <div class="contenidoso">
+                    <button class="btn-outline-dark" onClick="funRan()">Random 1 a 100</button>
+                    <p class="p-2" id="prisa">...</p>
 
+                </div>
+                <div class="contenidoso">
+                    <button class="btn-outline-dark" onClick="funLoto()">Juege!</button>
+                    <p class="p-2" id="prima">...</p>
+
+                </div>
+                <div class="contenidoso">
+                    <strong>Potencias</strong><br>
+                    <input class="input-group-text" type="text" id="numeA" value="" > Numero 1</input>
+                    <input class="input-group-text" type="text" id="numeB" value="" > Numero 2</input><br>
+                    <button class="btn-outline-dark" onClick="comunes()">Valores</button>
+                    <p class="p-2" id="prif">...</p>
+
+                </div>
+                <div class="contenidoso">
+
+                </div>
+
+            </div>
+            <div class="abajod">
+
+            </div>
         </div>
     </div>
 </body>
